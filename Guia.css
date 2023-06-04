@@ -2,7 +2,6 @@
 *{
     margin: 0 auto;
 }
-/* Para computador desktop*/
 
 header, main, nav, footer{
     width: 100%;
@@ -38,10 +37,11 @@ main{
      background-color: purple;
      display: flex;
      box-sizing: border-box;
-     height: 400px;
+     height: 700px;
 
 }
 form{
+    font-family: 'Quicksand', sans-serif;
     flex: 1;
     text-align: left;
     color: white;
@@ -50,6 +50,7 @@ form{
 input[type=button]{
     background: lightpink;
     border: solid 1px blueviolet;
+    cursor: pointer;
 }
 div#signos{
     flex: 1;
