@@ -12,12 +12,13 @@ header, footer{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-color: #A4DE02;
+    background-color: rgb(54, 3, 54);
     box-sizing: border-box;
+    color: white;
 }
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: white;
     font-size: 1.8vw;
 }
 header div{
@@ -37,6 +38,7 @@ main{
      background-color: purple;
      display: flex;
      box-sizing: border-box;
+     height: 400px;
 
 }
 form{
@@ -45,7 +47,7 @@ form{
     color: white;
     margin:0;
 }
-input[button]{
+input[type=button]{
     background: lightpink;
     border: solid 1px blueviolet;
 }
