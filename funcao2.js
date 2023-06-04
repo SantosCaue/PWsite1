@@ -3,12 +3,10 @@ function Seleciona() {
     let gabsn = 0;
     var botao = document.getElementsByClassName("answers");
     for(let i = 0; i < 12; i++){
-        var klau = botao[i];
-        klau.innerHTML = "";
+        botao[i].innerHTML = "";
     }
     while (document.signo.questao1[gabsn].checked == false) {
         gabsn++;
     }
-    klau = botao[gabsn];
-    klau.innerHTML = teste[gabsn];
+    botao[gabsn].innerHTML = teste[gabsn];
 }
