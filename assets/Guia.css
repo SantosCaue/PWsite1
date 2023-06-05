@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.goog leapis.com/css2?family=Quicksand&display=swap');
 
 * {
     margin: 0 auto;
@@ -17,7 +17,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-color: rgb(54, 3, 54);
+    background-color: #D7A7D4;
     box-sizing: border-box;
     color: white;
 }
@@ -31,6 +31,9 @@ header div {
     display: flex;
     align-items: center;
 }
+header img{
+    height: 75px;
+}
 
 h2 {
     font-family: 'Quicksand', sans-serif;
@@ -43,7 +46,7 @@ main {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: purple;
+    background-color: #9B59B6;
     box-sizing: border-box;
 
 }
@@ -58,37 +61,46 @@ input[type=button] {
     margin-top: 50px;
     font-size: x-large;
     font-family: 'Quicksand', sans-serif;
-    background: lightpink;
-    border: solid 1px rgb(21, 0, 41);
+    background: #8E44AD;
+    border: solid 1px #E91E63;
     border-radius: 12px;
     cursor: pointer;
+    color: white    
 }
 
 div#principal {
     display: flex;
     text-align: left;
     font-size: 1.7em;
-    }
-
-div#signos {
-    flex: 1;
     color: white;
     font-family: 'Quicksand', sans-serif;
-
+    flex-direction: column;
+}
+#principal img{
+    height: 27.2px;
+}
+div.linha {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+    align-items: center;
 
 }
-#signos div{
-display: flex;
-margin: 10px 0px 10px 0px;
+
+#principal div div {
+    flex: 1;
 }
-div.ativo{
+
+div.ativo {
     font-family: 'Quicksand', sans-serif;
-    color: black;
-    background-color: lightpink;
-    border-radius: 12px;
+    color: white;
+    background-color: #E91E63;
+    border-radius: 32px;
     padding: 5px;
     box-sizing: border-box;
-
+    text-align: center;
+    margin-right: 15%;
 }
 
 
