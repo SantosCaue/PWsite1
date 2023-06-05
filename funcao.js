@@ -11,9 +11,5 @@ function Seleciona() {
  }
 document.getElementsByClassName("answers")[gabsn].innerHTML = teste[gabsn];
 document.getElementsByClassName("answers")[gabsn].classList.replace('answers', 'ativo');
-let margem = 47.2*(gabsn);
-margem = margem +"px 0px 0px 0px";
-alert(margem)
-document.getElementsByClassName("ativo")[0].style.margin = margem
 
 }

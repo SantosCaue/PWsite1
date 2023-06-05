@@ -78,12 +78,8 @@ div#signos {
 
 }
 #signos div{
+display: flex;
 margin: 10px 0px 10px 0px;
-}
-
-div#respostas {
-    flex: 1;
-    text-align: center;
 }
 div.ativo{
     font-family: 'Quicksand', sans-serif;
