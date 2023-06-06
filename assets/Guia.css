@@ -17,7 +17,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-color: #D7A7D4;
+    background-color: #E6C1E6;
     box-sizing: border-box;
     color: white;
 }
@@ -38,7 +38,7 @@ header img{
 h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 3.06em;
-    color: white;
+    color: #661A66;
     margin-bottom: 5px;
 }
 
@@ -46,7 +46,7 @@ main {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #9B59B6;
+    background-color: #E070E0;
     box-sizing: border-box;
 
 }
@@ -61,18 +61,18 @@ input[type=button] {
     margin-top: 50px;
     font-size: x-large;
     font-family: 'Quicksand', sans-serif;
-    background: #8E44AD;
-    border: solid 1px #E91E63;
+    background: #AD57AD;
+    border: solid 1px #613061;
     border-radius: 12px;
     cursor: pointer;
-    color: white    
+    color: #661A66    
 }
 
 div#principal {
     display: flex;
     text-align: left;
     font-size: 1.7em;
-    color: white;
+    color: #661A66;
     font-family: 'Quicksand', sans-serif;
     flex-direction: column;
 }
@@ -95,7 +95,7 @@ div.linha {
 div.ativo {
     font-family: 'Quicksand', sans-serif;
     color: white;
-    background-color: #E91E63;
+    background-color: #613061;
     border-radius: 32px;
     padding: 5px;
     box-sizing: border-box;
