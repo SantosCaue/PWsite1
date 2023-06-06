@@ -17,7 +17,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-color: #E6C1E6;
+    background-color: #db09db;
     box-sizing: border-box;
     color: white;
 }
@@ -46,7 +46,7 @@ main {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #E070E0;
+    background-color: #b1a6b1;
     box-sizing: border-box;
 
 }
