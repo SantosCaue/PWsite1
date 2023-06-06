@@ -67,7 +67,9 @@ input[type=button] {
     cursor: pointer;
     color: #661A66    
 }
-
+input[type=button]:hover {
+color: #661A66;
+}
 div#principal {
     display: flex;
     text-align: left;
