@@ -3,13 +3,13 @@ function Seleciona() {
     let gabsn = 0;
     
         for(let i = 0; i < document.getElementsByClassName("ativo").length; i++){
-        document.getElementsByClassName("ativo")[i].innerHTML = "";
+        document.getElementsByClassName("ativo")[i].getElementsByTagName("p")[0].innerHTML = "";
         document.getElementsByClassName("ativo")[i].classList.replace('ativo', 'answers');
     }
     while (document.signo.questao1[gabsn].checked == false) {
         gabsn++;
  }
-document.getElementsByClassName("answers")[gabsn].innerHTML = teste[gabsn];
+document.getElementsByClassName("answers")[gabsn].getElementsByTagName("p")[0].innerHTML = teste[gabsn];
 document.getElementsByClassName("answers")[gabsn].classList.replace('answers', 'ativo');
-
+    
 }

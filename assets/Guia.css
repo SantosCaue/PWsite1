@@ -1,4 +1,4 @@
-@import url('https://fonts.goog leapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 * {
     margin: 0 auto;
@@ -12,82 +12,143 @@ footer {
 }
 
 header,
-footer {
-    font-family: 'Quicksand', sans-serif;
+footer,
+nav {
+    font-family: 'Hammersmith One', sans-serif;
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-color: #b1a6b1;
+    background: #2E142F;
     box-sizing: border-box;
     color: white;
 }
 
+header {
+    height: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    height: 40px;
+}
+
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     color: white;
 }
 
-header div {
+header,
+nav div {
     display: flex;
     align-items: center;
-}
-header img{
-    height: 75px;
+    color: #78ABD9;
+    font-size: 4em;
 }
 
-h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 3.06em;
-    color: #661A66;
-    margin-bottom: 5px;
+nav div {
+    font-size: 1.5em;
+}
+
+header img {
+    height: 75px;
 }
 
 main {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #580d58;
     box-sizing: border-box;
+    position: relative;
+}
 
+main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("galaxia_bg.jpg");
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
 }
 
 form {
     text-align: center;
     margin-top: 0px;
-
+}
+label{
+    text-align: left;
+}
+input[type=radio] {
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
-input[type=button] {
-    margin-top: 50px;
-    font-size: x-large;
-    font-family: 'Quicksand', sans-serif;
-    background: #AD57AD;
-    border: solid 1px #613061;
-    border-radius: 12px;
+/* IMAGE STYLES */
+[type=radio] + img {
+    filter: brightness(100%);
     cursor: pointer;
-    color: #661A66    
 }
-input[type=button]:hover {
-color: #c53dc5;
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+    filter: brightness(10000%);
+
 }
+
 div#principal {
-    display: flex;
+    flex: 1;
     text-align: left;
     font-size: 1.7em;
-    color: #be38be;
-    font-family: 'Quicksand', sans-serif;
+    color: #2E142F;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+#secundario {
+    display: flex;
     flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 386px;
+    border-radius: 59px;
+    background-color: #CCCECE;
+    text-align: left;
 }
-#principal img{
-    height: 27.2px;
+
+#organizacao {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
 }
+
+#principal img {
+    height: 25px;
+}
+
+#respostas {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 div.linha {
     display: flex;
     flex-direction: row;
     margin: 10px 0px 10px 0px;
     text-align: left;
     align-items: center;
+}
 
+div.answers {
+    margin: 10px 0px 24px 0px;
+    height: 1.7em;
 }
 
 #principal div div {
@@ -95,17 +156,27 @@ div.linha {
 }
 
 div.ativo {
-    font-family: 'Quicksand', sans-serif;
-    color: white;
-    background-color: #613061;
     border-radius: 32px;
     padding: 5px;
     box-sizing: border-box;
-    text-align: center;
     margin-right: 15%;
+    margin: 10px 0px 0px 0px;
+    width: 569px;
+    height: 74px;
+    background: #D9D9D9;
+    border: 4px solid #000000;
+    border-radius: 43px;
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
 }
 
-
+#respostas p {
+    text-align: center;
+    color: #2E142F;
+    font-size: 1.5em;
+    font-family: 'Hammersmith One', sans-serif;
+}
 
 footer {
     height: 30px;
